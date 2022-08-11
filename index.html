@@ -5,10 +5,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>UWP Fullstack Assessment</title>
+  <link rel="stylesheet" href="app.css">
+  
 </head>
 <body>
 
-  <!-- Render your frontend in this file -->
+  <section id="people">
+    <h2 class="section_title">Let's call the API to get the people! </h2>
+    <button onclick="getPeople()">Fetch! 🧑‍🤝‍🧑</button>
+    <div class="container">
+      <div class="flex" id="people-list">
+      
+      </div>
+    </div>
+  </section>
   
+  <section id="pets">
+    <h2 class="section_title">Let's call the API to get the pets! *</h2>
+
+    <button onclick="getPets()">Fetch! 🐶</button>
+    
+    <div class="container">
+      <div class="flex" id="pet-list"> 
+
+      </div>
+    </div>
+  </section>
+  <audio id="dog-sound" src="https://www.myinstants.com/media/sounds/who-let-the-dogs-out-song.mp3" preload="auto"></audio>
 </body>
+<script type="text/javascript" src="app.js"></script>
 </html>

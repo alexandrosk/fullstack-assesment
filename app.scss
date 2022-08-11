@@ -1,1 +1,70 @@
 // Include styles for your frontend here, make sure it is compiled into css before pushing
+$primary-color: #000;
+$secondary-color: #fff;
+$blue-color: #5982b8;
+$primary-font: monospace;
+$bigSpace: 2rem;
+
+body {
+    padding: $bigSpace;
+    font-family: $primary-font;
+    background: #f3f3f3;
+}
+
+section {
+    text-align: center;
+    margin-top: $bigSpace;
+    padding-bottom: $bigSpace*4;
+    h2 {
+        text-align: center;
+        color: $blue-color;
+    }
+
+    .card {
+        background: $secondary-color;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+        
+        .name {
+            flex-basis: 100%;
+            font-weight: 600;
+            font-size: 18px;
+        }
+    }
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+
+button {
+    cursor: pointer;
+    background: $blue-color;
+    max-width: 200px;
+    padding: 10px;
+    border: 0;
+    text-transform: uppercase;
+    width: 100%;
+    border-radius: 5px;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    font-weight: 600;
+    color:$secondary-color;
+    transition: .2s;
+    &:hover {
+        opacity:0.8;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}

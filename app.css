@@ -1,1 +1,60 @@
-/*# sourceMappingURL=app.css.map */
+body {
+  padding: 2rem;
+  font-family: monospace;
+  background: #f3f3f3;
+}
+
+section {
+  text-align: center;
+  margin-top: 2rem;
+  padding-bottom: 8rem;
+}
+section h2 {
+  text-align: center;
+  color: #5982b8;
+}
+section .card {
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+section .card .name {
+  flex-basis: 100%;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+}
+
+button {
+  cursor: pointer;
+  background: #5982b8;
+  max-width: 200px;
+  padding: 10px;
+  border: 0;
+  text-transform: uppercase;
+  width: 100%;
+  border-radius: 5px;
+  letter-spacing: 0.03em;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.2s;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}/*# sourceMappingURL=app.css.map */
