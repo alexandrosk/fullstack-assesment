@@ -1,0 +1,33 @@
+{
+  "people": [
+    {
+      "id": 2,
+      "name": "George Washington",
+      "email": "georgeWashington@gmail.com",
+      "age": "50"
+    }
+  ],
+  "pets": [
+    {
+      "age": 20,
+      "name": "Test",
+      "species": "y22",
+      "person_id": "1",
+      "id": 1
+    },
+    {
+      "name": "test",
+      "species": null,
+      "age": 22,
+      "person_id": "10",
+      "id": 5
+    },
+    {
+      "name": null,
+      "species": null,
+      "age": 22,
+      "person_id": "10",
+      "id": 6
+    }
+  ]
+}
