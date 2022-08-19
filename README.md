@@ -1,6 +1,6 @@
 # Fullstack-Assessment
 
-In order to assess your suitability for a fullstack developer position at Underwaterpistol we have asked that you complete a short assessment. Your task is to build a `HTTP REST API` that fulfils the requirements set out in the documentation below - you should also include an `index.html` file that connects to your API and lists all records, the specific design of this page is not important but you should attempt to style it with the included `app.scss` file.
+In order to assess your suitability for a fullstack developer position  we have asked that you complete a short assessment. Your task is to build a `HTTP REST API` that fulfils the requirements set out in the documentation below - you should also include an `index.html` file that connects to your API and lists all records, the specific design of this page is not important but you should attempt to style it with the included `app.scss` file.
 
 Your API can be built with either Ruby, PHP, or Javascript, but we ask that the frontend only uses vanilla Javascript with no libraries or frameworks. Please use the included `app.js` file for frontend script.
 
@@ -14,7 +14,6 @@ This assessment should take between 60 and 90 minutes to complete.
 2. Create a new public repo on GitHub
 3. Change your local remote to your new repository
 4. Complete the assessment
-5. Submit a link to your repository to Underwaterpistol
 
 ## Criteria 
 
